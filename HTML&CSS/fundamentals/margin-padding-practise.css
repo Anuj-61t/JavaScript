@@ -1,47 +1,37 @@
 body{
-    width: 500px;
-    margin: auto;
-}
+    font-size: 16px;
+} 
+/* Add font size of paragraph to body so that it remains same across body */
 
 h1{
-    text-align: center;
-    color: #2E78A3;
     font-size: 48px;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin: 45px 0;
+    text-align: center;
+    color: #2e78d3;
 }
 
 h2{
     font-size: 32px;
-    color:#104C90;
-    margin-top: 0px;
-}
-
-span{
-    color: #ff8000;
-    text-decoration: underline;
+    color: #104c90;
+    margin: 0 0 10px;
 }
 
 a{
-    color:#ff8000
+    color: #ff8000;
+    font-weight: bold;
 }
 
 a:hover,a:focus{
-    color: blueviolet;
+    color: #104c90;
 }
 
 .card{
+    width: 450px;
     background-color: #f1f1f1;
+    margin: 0 auto;
     padding: 25px;
 }
 
-.intro-paragraph{
-    margin-top: 25px;
-    margin-bottom: 9px;
+.read-more{
+    margin-bottom   : 0;
 }
-
-.body-paragraph{
-    margin-top: 0px;
-    margin-bottom: 9px;
-}
-
