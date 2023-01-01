@@ -1,0 +1,47 @@
+body{
+    width: 500px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: #2E78A3;
+    font-size: 48px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+h2{
+    font-size: 32px;
+    color:#104C90;
+    margin-top: 0px;
+}
+
+span{
+    color: #ff8000;
+    text-decoration: underline;
+}
+
+a{
+    color:#ff8000
+}
+
+a:hover,a:focus{
+    color: blueviolet;
+}
+
+.card{
+    background-color: #f1f1f1;
+    padding: 25px;
+}
+
+.intro-paragraph{
+    margin-top: 25px;
+    margin-bottom: 9px;
+}
+
+.body-paragraph{
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+
